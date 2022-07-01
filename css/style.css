@@ -535,8 +535,8 @@ mark,
   background-color: #ffffff;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
-  max-width: 50%;
-  height: 50%;
+  max-width: 40%;
+  height: 10%;
 }
 
 .figure {
