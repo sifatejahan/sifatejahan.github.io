@@ -679,6 +679,21 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+
+    <div class="counter-container">
+          <h3>Total Visits:</h3>
+          <!-- The number will dynamically load inside this span -->
+          <span id="visit-count">Loading...</span>
+    </div>
+    
+    <script>
+      function cb(response) {
+          document.getElementById('visit-count').innerText = response.value;
+      }
+    </script>
+    <!-- Replace 'yourwebsite' and 'homepage' with your unique site identifier -->
+    <script async src="https://sifatejahan.github.io/"></script>
 </body>
 
 </html>
